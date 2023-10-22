@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HealthSummaryFragment">
+
+
+    <TextView
+        android:id="@+id/totalCalories"
+        android:layout_width="209dp"
+        android:layout_height="38dp"
+
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="30dp"
+        android:text="Total Calories"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/maxCalories" />
+
+    <TextView
+        android:id="@+id/avgCalories"
+        android:layout_width="209dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="30dp"
+        android:text="Avg. Calories"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/minCalories" />
+
+    <TextView
+        android:id="@+id/maxCalories"
+        android:layout_width="209dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="30dp"
+        android:text="Max. Calories"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/avgCalories" />
+
+    <TextView
+        android:id="@+id/minCalories"
+        android:layout_width="209dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="66dp"
+        android:text="Min. Calories"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/avgCaloriesNumber"
+        android:layout_width="118dp"
+        android:layout_height="28dp"
+        android:layout_marginTop="76dp"
+        android:layout_marginEnd="17dp"
+        android:text="0 Cal."
+        android:textAlignment="textEnd"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/minCaloriesNumber"
+        android:layout_width="118dp"
+        android:layout_height="28dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="16dp"
+        android:text="0 Cal."
+        android:textAlignment="textEnd"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/avgCaloriesNumber" />
+
+    <TextView
+        android:id="@+id/maxCaloriesNumber"
+        android:layout_width="118dp"
+        android:layout_height="28dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="16dp"
+        android:text="0 Cal."
+        android:textColor="@color/black"
+        android:textAlignment="textEnd"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/minCaloriesNumber" />
+
+    <TextView
+        android:id="@+id/totalCaloriesNumber"
+        android:layout_width="118dp"
+        android:layout_height="28dp"
+        android:layout_marginTop="39dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="423dp"
+        android:text="0 Cal."
+        android:textAlignment="textEnd"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/maxCaloriesNumber" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -8,11 +8,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.bitfitpart1"
+    namespace = "com.example.bitfitpart2"
     compileSdk = 33
 
     defaultConfig {
-        applicationId = "com.example.bitfitpart1"
+        applicationId = "com.example.bitfitpart2"
         minSdk = 24
         targetSdk = 33
         versionCode = 1

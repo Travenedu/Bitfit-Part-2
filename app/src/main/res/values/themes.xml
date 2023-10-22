@@ -5,5 +5,5 @@
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
     </style>
 
-    <style name="Theme.BitfitPart1" parent="Base.Theme.BitfitPart1" />
+    <style name="Theme.BitfitPart2" parent="Base.Theme.BitfitPart1" />
 </resources>

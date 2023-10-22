@@ -1,27 +1,42 @@
-<!-- activity_add_food.xml -->
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical"
-    tools:context=".AddHealthActivity">
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:layout_margin="10dp">
+<!--    android:background="@color/grey">-->
 
-    <EditText
-        android:id="@+id/healthItemNameEditText"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Food Name" />
-
-    <EditText
-        android:id="@+id/calorieCountEditText"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Calorie Count" />
-
-    <Button
-        android:id="@+id/addFoodButton"
+    <TextView
+        android:id="@+id/displayName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Add Food" />
-</LinearLayout>
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="20dp"
+        android:text="Food Name"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/displayCalories"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.642" />
+
+    <TextView
+        android:id="@+id/displayCalories"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="10dp"
+        android:text="Calories"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.932"
+        app:layout_constraintStart_toEndOf="@+id/displayName"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

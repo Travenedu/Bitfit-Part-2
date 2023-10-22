@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto">
+
+<item
+    android:id="@+id/nav_food"
+    android:enabled="true"
+    android:icon="@drawable/baseline_food_bank_24"
+    app:showAsAction="ifRoom"
+    android:title="Workouts"/>
+<item
+    android:id="@+id/nav_summary"
+    android:enabled="true"
+    android:icon="@drawable/baseline_track_changes_24"
+    app:showAsAction="ifRoom"
+    android:title="Summary" />
+</menu>
